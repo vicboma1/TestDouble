@@ -3,6 +3,8 @@ package mock;
 import api.CUT;
 import api.ComponentExtension;
 import dummy.ComponentDummyExtensionImpl;
+import fake.FakeHttpServletRequest;
+import javafx.concurrent.Task;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -10,11 +12,13 @@ import org.junit.Test;
 import org.mockito.Matchers;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.mockito.Spy;
 import src.CUTImpl;
 
 import static org.mockito.Matchers.anyInt;
 
 public class MockTest {
+
     private ComponentExtension ce;
     private CUT cut;
 
