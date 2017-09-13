@@ -1,2 +1,2 @@
-# TestDouble
-Agil Methodology Test Double dummy stub mock spy fake TDD 
+# Test Double
+[![Build Status](https://travis-ci.org/vicboma1/TestDouble.svg?branch=master)](https://travis-ci.org/vicboma1/TestDouble)
