@@ -15,8 +15,8 @@ import api.ComponentExtension;
         }
 
         @Override
-        public String doBusiness(String param, Integer delta) {
-            final int res = component.add(Integer.valueOf(param));
+        public String doBusiness(Integer param, Integer delta) {
+            final int res = component.add(param);
             return String.valueOf(res);
         }
     }

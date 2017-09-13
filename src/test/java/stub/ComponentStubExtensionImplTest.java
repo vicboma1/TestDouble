@@ -28,7 +28,7 @@ public class ComponentStubExtensionImplTest {
 
         final CUT cut = new CUTImpl(ce);
         try {
-            cut.doBusiness("3", null);
+            cut.doBusiness(3, null);
             Assert.fail(String.valueOf(result));
         }
         catch(NullPointerException ee){

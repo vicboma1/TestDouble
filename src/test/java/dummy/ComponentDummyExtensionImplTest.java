@@ -27,7 +27,7 @@ public class ComponentDummyExtensionImplTest {
         final Integer expected = 4;
 
         final CUT cut = new CUTImpl(ce);
-        final Integer result = Integer.valueOf( cut.doBusiness("3", null));
+        final Integer result = Integer.valueOf( cut.doBusiness(3, null));
 
         Assert.assertEquals("add(3) != 4", result, expected);
     }
