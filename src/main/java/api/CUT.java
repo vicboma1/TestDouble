@@ -1,4 +1,4 @@
-package dummy;
+package api;
 
 /**
  * Adaptación a "Fakes, Stubs, Dummy, Mocks, Doubles and All That..."

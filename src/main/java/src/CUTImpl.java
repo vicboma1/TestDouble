@@ -1,4 +1,7 @@
-package dummy;
+package src;
+
+import api.CUT;
+import api.ComponentExtension;
 
 /**
  * Adaptación a "Fakes, Stubs, Dummy, Mocks, Doubles and All That..."

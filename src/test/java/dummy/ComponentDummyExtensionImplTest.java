@@ -1,19 +1,20 @@
 package dummy;
 
+import api.CUT;
+import api.ComponentExtension;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import src.CUTImpl;
 
-import static org.junit.Assert.*;
-
-public class ComponentExtensionImplTest {
+public class ComponentDummyExtensionImplTest {
 
     private ComponentExtension ce;
 
     @Before
     public void setUp() throws Exception {
-        ce = new ComponentExtensionImpl();
+        ce = new ComponentDummyExtensionImpl();
     }
 
     @After
