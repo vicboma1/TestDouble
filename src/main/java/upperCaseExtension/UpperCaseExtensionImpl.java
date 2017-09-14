@@ -12,6 +12,7 @@ public class UpperCaseExtensionImpl implements UpperCaseExtension {
 
     public String firstUpperCase(String input){
         final String[] result = new String[]{""};
+        
         IntStream.range(0, input.length())
                 .mapToObj(i -> i == 0 ? Character.toUpperCase(input.charAt(i)) : input.charAt(i))
                 .forEach(it -> result[0]+=it.toString() );
